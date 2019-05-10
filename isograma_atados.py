@@ -61,3 +61,8 @@ def is_isogram(word):
             return False
 
     return True
+
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
